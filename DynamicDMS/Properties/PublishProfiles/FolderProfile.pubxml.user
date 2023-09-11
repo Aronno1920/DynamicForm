@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\PublishFile</_PublishTargetUrl>
+    <History>True|2023-08-01T06:36:57.0416090Z;True|2023-07-27T13:29:46.6783599+06:00;True|2023-07-26T15:55:28.9636605+06:00;True|2023-07-19T17:57:33.1828832+06:00;True|2023-07-19T16:35:45.8737354+06:00;True|2023-07-19T12:13:29.0805165+06:00;True|2023-07-19T12:10:37.7383656+06:00;True|2023-07-19T11:10:49.9692636+06:00;True|2023-07-19T10:47:13.5772926+06:00;True|2023-07-18T12:04:55.3144921+06:00;True|2023-05-02T10:39:08.4179529+06:00;True|2023-04-06T13:00:32.7445562+06:00;True|2023-03-30T10:48:08.1793187+06:00;True|2023-03-23T15:46:43.3622857+06:00;True|2023-03-22T16:39:49.9382872+06:00;True|2023-03-22T11:40:18.8034146+06:00;True|2023-03-20T11:18:58.1723058+06:00;True|2023-02-28T13:40:33.0884551+06:00;True|2023-02-28T13:40:16.6113508+06:00;True|2023-02-28T12:01:23.0607803+06:00;True|2023-02-28T10:14:55.8588923+06:00;False|2023-02-28T10:14:09.2997651+06:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="assets/css/adminlte.css">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/css/adminlte.css.map">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/css/all.css">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/css/app.css">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/css/CalenderTheme.css">
+      <publishTime>07/31/2023 01:21:16</publishTime>
+    </File>
+    <File Include="assets/css/cssGridView.css">
+      <publishTime>07/13/2023 04:30:26</publishTime>
+    </File>
+    <File Include="assets/css/custom.css">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/css/dashboard.css">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/css/styles.css">
+      <publishTime>07/23/2023 12:02:50</publishTime>
+    </File>
+    <File Include="assets/img/6-6.jpg">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/img/calender.png">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/img/close.png">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/img/Delete.png">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/img/download.png">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/img/edit.png">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/img/history.png">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/img/login-logo.png">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/img/preview.png">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/img/properties.png">
+      <publishTime>07/23/2023 12:26:38</publishTime>
+    </File>
+    <File Include="assets/js/adminlte.js">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/js/adminlte.js.map">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/js/adminlte.min.js">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/js/adminlte.min.js.map">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap.bundle.min.js">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap.bundle.min.js.map">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap.js">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap.js.map">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap.min.js">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap.min.js.map">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/js/jquery.js">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/js/jquery.min.js">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/js/jquery.min.map">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/js/jquery.slim.js">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/js/jquery.slim.min.js">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/js/jquery.slim.min.map">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-brands-400.eot">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-brands-400.svg">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-brands-400.ttf">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-brands-400.woff">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-brands-400.woff2">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-regular-400.eot">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-regular-400.svg">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-regular-400.ttf">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-regular-400.woff">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-regular-400.woff2">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-solid-900.eot">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-solid-900.svg">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-solid-900.ttf">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-solid-900.woff">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-solid-900.woff2">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="AutoComplete.asmx">
+      <publishTime>07/23/2023 00:14:52</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="bin/CoreLibrary.dll">
+      <publishTime>08/01/2023 12:36:53</publishTime>
+    </File>
+    <File Include="bin/CoreLibrary.pdb">
+      <publishTime>08/01/2023 12:36:53</publishTime>
+    </File>
+    <File Include="bin/DynamicDMS.dll">
+      <publishTime>08/01/2023 12:36:55</publishTime>
+    </File>
+    <File Include="bin/DynamicDMS.pdb">
+      <publishTime>08/01/2023 12:36:55</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="bin/LogicDMS.dll">
+      <publishTime>07/19/2023 17:57:32</publishTime>
+    </File>
+    <File Include="bin/LogicDMS.pdb">
+      <publishTime>07/19/2023 17:57:32</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/08/2023 13:09:56</publishTime>
+    </File>
+    <File Include="Controls/AttachmentList.ascx">
+      <publishTime>03/19/2023 12:04:17</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>07/23/2023 00:14:52</publishTime>
+    </File>
+    <File Include="DocumentsApprove/approve.png">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="DocumentsDraft/draft.png">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/23/2023 00:14:52</publishTime>
+    </File>
+    <File Include="Images/approve.png">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="Images/dms_logo.png">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="Images/draft.png">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="Images/loading-logo.gif">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="Images/logo.png">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="Images/no_photo.jpg">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="Images/road-barrier.png">
+      <publishTime>04/15/2023 01:14:10</publishTime>
+    </File>
+    <File Include="MasterPage.Master">
+      <publishTime>07/31/2023 22:15:49</publishTime>
+    </File>
+    <File Include="UI/AccDepartment.aspx">
+      <publishTime>08/01/2023 10:42:17</publishTime>
+    </File>
+    <File Include="UI/ApprovedList.aspx">
+      <publishTime>08/01/2023 10:42:17</publishTime>
+    </File>
+    <File Include="UI/Category.aspx">
+      <publishTime>08/01/2023 10:42:17</publishTime>
+    </File>
+    <File Include="UI/Company.aspx">
+      <publishTime>04/15/2023 14:14:10</publishTime>
+    </File>
+    <File Include="UI/Dashborad.aspx">
+      <publishTime>07/30/2023 22:10:30</publishTime>
+    </File>
+    <File Include="UI/Department.aspx">
+      <publishTime>04/15/2023 14:14:10</publishTime>
+    </File>
+    <File Include="UI/Designation.aspx">
+      <publishTime>04/15/2023 14:14:10</publishTime>
+    </File>
+    <File Include="UI/Document.aspx">
+      <publishTime>08/01/2023 10:42:17</publishTime>
+    </File>
+    <File Include="UI/Documents.aspx">
+      <publishTime>04/15/2023 14:14:10</publishTime>
+    </File>
+    <File Include="UI/DocumentSCM.aspx">
+      <publishTime>07/23/2023 22:41:25</publishTime>
+    </File>
+    <File Include="UI/DocumentTest.aspx">
+      <publishTime>07/26/2023 17:02:23</publishTime>
+    </File>
+    <File Include="UI/FileType.aspx">
+      <publishTime>04/15/2023 14:14:10</publishTime>
+    </File>
+    <File Include="UI/FlowDocument.aspx">
+      <publishTime>08/01/2023 10:42:17</publishTime>
+    </File>
+    <File Include="UI/Flowpath.aspx">
+      <publishTime>08/01/2023 10:42:17</publishTime>
+    </File>
+    <File Include="UI/ForceMovement.aspx">
+      <publishTime>07/23/2023 00:14:52</publishTime>
+    </File>
+    <File Include="UI/Home.aspx">
+      <publishTime>07/23/2023 13:14:52</publishTime>
+    </File>
+    <File Include="UI/Location.aspx">
+      <publishTime>04/15/2023 14:14:10</publishTime>
+    </File>
+    <File Include="UI/Lookup.aspx">
+      <publishTime>08/01/2023 10:42:16</publishTime>
+    </File>
+    <File Include="UI/MenuRole.aspx">
+      <publishTime>08/01/2023 10:42:16</publishTime>
+    </File>
+    <File Include="UI/Metadata.aspx">
+      <publishTime>08/01/2023 12:05:01</publishTime>
+    </File>
+    <File Include="UI/MovementProcess.aspx">
+      <publishTime>04/15/2023 14:14:10</publishTime>
+    </File>
+    <File Include="UI/OwnDocument.aspx">
+      <publishTime>08/01/2023 10:42:16</publishTime>
+    </File>
+    <File Include="UI/popupHistory.aspx">
+      <publishTime>07/23/2023 00:14:52</publishTime>
+    </File>
+    <File Include="UI/PrintPreview.aspx">
+      <publishTime>08/01/2023 10:42:16</publishTime>
+    </File>
+    <File Include="UI/Profile.aspx">
+      <publishTime>08/01/2023 10:42:16</publishTime>
+    </File>
+    <File Include="UI/Role.aspx">
+      <publishTime>07/17/2023 21:42:32</publishTime>
+    </File>
+    <File Include="UI/Service.aspx">
+      <publishTime>07/17/2023 23:02:35</publishTime>
+    </File>
+    <File Include="UI/ServiceFlow.aspx">
+      <publishTime>07/19/2023 17:45:22</publishTime>
+    </File>
+    <File Include="UI/Tracking.aspx">
+      <publishTime>08/01/2023 10:42:16</publishTime>
+    </File>
+    <File Include="UI/UnauthorizedPage.aspx">
+      <publishTime>08/01/2023 10:42:16</publishTime>
+    </File>
+    <File Include="UI/User.aspx">
+      <publishTime>08/01/2023 10:42:15</publishTime>
+    </File>
+    <File Include="UI/UserCompany.aspx">
+      <publishTime>07/26/2023 16:57:10</publishTime>
+    </File>
+    <File Include="UI/UserFlowpath.aspx">
+      <publishTime>08/01/2023 10:42:15</publishTime>
+    </File>
+    <File Include="UI/UserGroup.aspx">
+      <publishTime>04/15/2023 14:14:11</publishTime>
+    </File>
+    <File Include="UI/Viewer.aspx">
+      <publishTime>07/23/2023 00:14:52</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/01/2023 12:36:56</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

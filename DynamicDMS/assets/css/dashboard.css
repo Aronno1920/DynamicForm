@@ -1,0 +1,208 @@
+﻿
+/*
+* Component: Dashboard Style 1
+* -------------------
+*/
+
+.header-style {
+    background-color: #4e6679;
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+    line-height: 30px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.info-box {
+    display: block;
+    min-height: 90px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+.info-box small {
+    font-size: 14px;
+}
+
+.info-box .progress {
+    background: rgba(0, 0, 0, 0.2);
+    margin: 5px -10px 5px -10px;
+    height: 2px;
+}
+    .info-box .progress,
+    .info-box .progress .progress-bar {
+        border-radius: 0;
+    }
+    .info-box .progress .progress-bar {
+            background: #fff;
+        }
+
+.info-box-icon {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+    display: block;
+    float: left;
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 90px;
+    background: rgba(0, 0, 0, 0.2);
+}
+    .info-box-icon > img {
+        max-width: 100%;
+    }
+
+.info-box-content {
+    padding: 5px 10px;
+    margin-left: 90px;
+}
+
+.info-box-number {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.progress-description,
+.info-box-text {
+    display: block;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.info-box-text {
+    text-transform: uppercase;
+}
+.info-box-more {
+    display: block;
+}
+.progress-description {
+    margin: 0;
+}
+
+
+/*
+* Component: Dashboard Style 2
+* -------------------
+*/
+
+.dashboard-arrow {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+    .dashboard-arrow .cmn {
+        width: 100%;
+        margin-bottom: 10px;
+        background: #fff;
+    }
+
+        /*------ Box Header Style ------*/
+        .dashboard-arrow .cmn .top-title {
+            width: 100%;
+            height: 35px;
+            background-size: 100% 100%;
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            border-radius: 5px 5px 0px 0px;
+        }
+            .dashboard-arrow .cmn .top-title.background-a {
+                background-size: 100% 98%;
+                background-color: #32c07a;
+            }
+            .dashboard-arrow .cmn .top-title.background-b {
+                background-size: 100% 98%;
+                background-color: #32bee2;
+            }
+            .dashboard-arrow .cmn .top-title.background-c {
+                background-size: 100% 98%;
+                background-color: #f48449;
+            }
+            .dashboard-arrow .cmn .top-title.background-d {
+                background-size: 100% 98%;
+                background-color: #9c4ca6;
+            }
+
+        /*------ Border Style ------*/
+        .dashboard-arrow .cmn .stat {
+            float: left;
+            width: 100%;
+            padding: 10px 10px 10px 10px;
+            border-color: #F88B33;
+            border-style: solid;
+            border-width: 0 1px 1px 1px;
+            margin-top: -1px;
+        }
+            .dashboard-arrow .cmn .stat.a {
+                border-color: #32c07a;
+            }
+            .dashboard-arrow .cmn .stat.b {
+                border-color: #32bee2;
+            }
+            .dashboard-arrow .cmn .stat.c {
+                border-color: #f48449;
+            }
+            .dashboard-arrow .cmn .stat.d {
+                border-color: #9c4ca6;
+            }
+
+        /*------ Icon round Style ------*/
+        .dashboard-arrow .cmn .stat .icon {
+                width: 30%;
+                float: left;
+            }
+            .dashboard-arrow .cmn .stat .icon .icon-circle {
+                    background: #F88B33;
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    text-align: center;
+                    padding-top: 14px;
+                    color: #fff;
+                    font-size: 15px;
+                }
+                .dashboard-arrow .cmn .stat .icon .icon-circle.a {
+                        background: #32c07a;
+                    }
+                .dashboard-arrow .cmn .stat .icon .icon-circle.b {
+                        background: #32bee2;
+                    }
+                .dashboard-arrow .cmn .stat .icon .icon-circle.c {
+                        background: #f48449;
+                    }
+                .dashboard-arrow .cmn .stat .icon .icon-circle.d {
+                        background: #9c4ca6;
+                    }
+
+        /*------ Number Text Style ------*/
+        .dashboard-arrow .cmn .stat .number {
+                width: 70%;
+                float: left;
+                color: #222;
+                font-size: 20px;
+                font-weight: bold;
+                text-align: right;
+                padding-top: 15px;
+            }
+            .dashboard-arrow .cmn .stat .number.a {
+                    color: #32c07a;
+                }
+            .dashboard-arrow .cmn .stat .number.b {
+                    color: #32bee2;
+                }
+            .dashboard-arrow .cmn .stat .number.c {
+                    color: #f48449;
+                }
+            .dashboard-arrow .cmn .stat .number.d {
+                    color: #9c4ca6;
+                }

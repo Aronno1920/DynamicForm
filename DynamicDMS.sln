@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLibrary", "CoreLibrary\CoreLibrary.csproj", "{DB1BA1D1-FFD6-46BE-9CE5-0DBE49018785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicDMS", "DynamicDMS\DynamicDMS.csproj", "{8E8D78FC-7B8A-46A0-87B4-21094A0F9F02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB1BA1D1-FFD6-46BE-9CE5-0DBE49018785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB1BA1D1-FFD6-46BE-9CE5-0DBE49018785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB1BA1D1-FFD6-46BE-9CE5-0DBE49018785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB1BA1D1-FFD6-46BE-9CE5-0DBE49018785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E8D78FC-7B8A-46A0-87B4-21094A0F9F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E8D78FC-7B8A-46A0-87B4-21094A0F9F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E8D78FC-7B8A-46A0-87B4-21094A0F9F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E8D78FC-7B8A-46A0-87B4-21094A0F9F02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {805E19BF-A955-4912-96A2-DC1D45CD168B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,73 @@
+﻿.ssGridToggle {
+    margin: 0px !important;
+}
+
+    .ssGridToggle tr td {
+        padding: 5px !important;
+    }
+    
+    .GridViewHeader th {
+        padding: 4px 4px;
+    }
+
+.HideGridColumn {
+    display: none !important;
+}
+
+.ssGridToggle, .ssGridToggle th, .ssGridToggle td {
+    border: 1px solid #DADADA;
+}
+
+.grid-action {
+    width: 100%;
+    display: -webkit-flex;
+}
+
+    .grid-action .action {
+        -webkit-flex: 1;
+    }
+
+
+.GridViewToggle
+{
+    
+   border: 0px solid #545352;
+   background-color: white;
+/*   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 1px 0;*/
+   font-size: 11px;
+    text-decoration: none;
+   vertical-align:top;
+   padding:5px;
+   margin:5px;
+  
+   
+}
+
+
+.GridViewHeader {
+    color: #2f3536;
+    font-style: normal;
+    font-weight: bold;
+    background-color: #E0EFFC;
+    box-shadow: rgb(179, 172, 175) 0px 0px 0px, inset #63B5FB 0px 6px 20px;
+}
+
+.GridViewFooterStyle {
+    background-color: whitesmoke;
+    color: #000066;
+}
+
+.GridViewPagerStyle       
+{
+    background-color:whitesmoke;
+    color:blue;
+    font-size:medium;
+    font-style:normal;
+    font-weight:normal;
+    text-align:left;
+}

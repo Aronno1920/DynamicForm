@@ -1,0 +1,290 @@
+table tr td {
+    padding: 3px !important;
+}
+
+/*---------Start Placeholder Style----------*/
+::-webkit-input-placeholder {
+    font-style: italic;
+    font-weight: normal !important;
+}
+
+:-moz-placeholder {
+    font-style: italic;
+    font-weight: normal !important;
+}
+
+:-ms-input-placeholder {
+    font-style: italic;
+    font-weight: normal !important;
+}
+
+:-ms-input-placeholder {
+    font-style: italic;
+    font-weight: normal !important;
+}
+
+:placeholder-shown {
+    font-style: italic;
+    font-weight: normal !important;
+}
+/*---------Start Placeholder Style----------*/
+
+/*---------Start Control Style----------*/
+.CheckBoxStyle label {
+    margin-left: 5px;
+}
+
+.TextBoxStyle {
+    width: 100% !important;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+    .TextBoxStyle:focus {
+        width: 100% !important;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+.DropDownListStyle {
+    width: 100% !important;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+    .DropDownListStyle:focus {
+        width: 100% !important;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+.HyperLinkStyle {
+    border: 1px solid #212529;
+    width: 100% !important;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+/*---------End Control Style----------*/
+
+.AutoExtender {
+    border: solid 1px #CCCCCC;
+    background-color: White;
+    overflow-y: scroll;
+    max-height: 200px;
+    width: 300px !important;
+    padding-left: 5px;
+}
+
+.AutoExtenderList {
+    border-bottom: dotted 1px #63b5fb;
+    cursor: pointer;
+}
+
+.AutoExtenderHighlight {
+    color: White;
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+
+.ModalPopupBG {
+    background-color: #666699;
+    filter: alpha(opacity=50);
+    opacity: 0.2;
+}
+
+.HellowWorldPopup {
+    min-width: 200px;
+    min-height: 150px;
+    background: white;
+}
+
+.panel {
+    padding: 7px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.panel-header {
+  padding: 2px 10px;
+  margin: -7px -7px 7px;
+  font-size: 16px;
+  font-weight: 600;      
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #dddddd;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.panel-footer {
+  padding: 10px 15px;
+  margin: 15px -15px -15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #dddddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.panel-primary {
+  border-color: #428bca;
+}
+
+.panel-primary .panel-header {
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #428bca;
+}
+
+.panel-success {
+  border-color: #d6e9c6;
+}
+
+.panel-success .panel-header {
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.panel-warning {
+  border-color: #fbeed5;
+}
+
+.panel-warning .panel-header {
+  color: #c09853;
+  background-color: #fcf8e3;
+  border-color: #fbeed5;
+}
+
+.panel-danger {
+  border-color: #eed3d7;
+}
+
+.panel-danger .panel-header {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+}
+
+.panel-info {
+  border-color: #bce8f1;
+}
+
+    .panel-info .panel-header {
+        color: #2B7E8F;
+        background-color: #d9edf7;
+        border-color: #bce8f1;
+    }
+
+.panel>.table, .panel>.table-responsive>.table {
+      margin-bottom: 0;
+}
+/*---------End Control Style----------*/
+
+
+/*---------Start Calender Style----------*/
+.CalenderTheme .ajax__calendar_container {
+    background-color: #ffffff;
+    border: solid 1px #77D5F7;
+    width: 180px;
+}
+
+.CalenderTheme table tr td {
+    padding: 1px !important;
+}
+
+.CalenderTheme .ajax__calendar_header {
+    background-color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.CalenderTheme .ajax__calendar_body {
+    background-color: #ffffff;
+    border-top: solid 1px #77D5F7;
+    border-bottom: solid 1px #77D5F7;
+    width: 178px;
+    margin: -4px;
+}
+
+.CalenderTheme .ajax__calendar_dayname {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+
+.CalenderTheme .ajax__calendar_day {
+    text-align: center;
+}
+
+.CalenderTheme .ajax__calendar_hover .ajax__calendar_day,
+.CalenderTheme .ajax__calendar_hover .ajax__calendar_month,
+.CalenderTheme .ajax__calendar_hover .ajax__calendar_year,
+.CalenderTheme .ajax__calendar_active {
+    font-weight: bold;
+    background-color: #DEF1F4;
+}
+
+.CalenderTheme .ajax__calendar_days, .ajax__calendar_months, .ajax__calendar_years {
+    top: 0px;
+    left: 0px;
+    height: 140px;
+    width: 180px;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+}
+
+.CalenderTheme .ajax__calendar_container TABLE {
+    padding: 0px;
+    margin: 0px;
+    font-size: 11px;
+    width: 160px;
+}
+
+.CalenderTheme .ajax__calendar_today {
+    font-weight: bold;
+    color: green;
+}
+
+.CalenderTheme .ajax__calendar_other,
+.CalenderTheme .ajax__calendar_hover .ajax__calendar_today,
+.CalenderTheme .ajax__calendar_hover .ajax__calendar_title {
+    color: #bbbbbb;
+}
+
+.CalenderTheme .ajax__calendar_footer {
+    height: 22px;
+    padding-top:6px;
+}
+
+.CalenderTheme .ajax__calendar_hover .ajax__calendar_day, .CalenderTheme .ajax__calendar_hover .ajax__calendar_month, .CalenderTheme .ajax__calendar_hover .ajax__calendar_year, .CalenderTheme .ajax__calendar_active {
+    font-weight: bold;
+    background-color: #00FF30;
+}
+/*---------End Calender Style----------*/
+
+
+/*---------Start Ajax Update Progress----------*/
+.loading-panel {
+    background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+    position: relative;
+    width: 100%;
+}
+
+.loading-container {
+    background: rgba(49, 133, 156, 0.4) none repeat scroll 0 0;
+    color: black;
+    font-size: 15px;
+    height: 100%;
+    left: 0;
+    padding-top: 15%;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+    align-content:center;
+    align-items:center;
+}
+/*---------End Ajax Update Progress----------*/

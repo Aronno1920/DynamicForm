@@ -1,0 +1,97 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="DynamicDMS.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1" runat="server">
+    <title>Online DMS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <link rel="shortcut icon" href="/Images/dms_logo.png" />
+    <link href="~/assets/css/styles.css" rel="stylesheet" />
+    <link href="~/assets/css/cssGridView.css" rel="stylesheet" />
+    <link href="~/assets/css/all.css" rel="stylesheet" />
+    <link href="~/assets/css/adminlte.css" rel="stylesheet" />
+    <link href="~/assets/css/CalenderTheme.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="HeaderPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="hold-transition sidebar-mini layout-navbar-fixed">
+    <form id="form1" runat="server">
+        <div class="wrapper">
+
+            <%-- Start: Top Navigation Menu--%>
+            <nav class="main-header navbar navbar-expand-md navbar-dark">
+                <div class="container">
+                    <a href='<%=ResolveUrl("~/UI/Dashborad.aspx")%>' class="navbar-brand">
+                        <img src="/images/logo.png" style="width: 111px; height: 30px;" alt="Asrotex Group" />
+                        <%--<span class="brand-text font-weight-light">Asrotex Group</span>--%>
+                    </a>
+
+                    <!-- Left navbar links -->
+                    <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+                        <div runat="server" id="divTopMenu">
+                        </div>
+                    </div>
+
+                    <!-- Right navbar links -->
+                    <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
+                        <li class="nav-item dropdown">
+                            <a id="dropdownProfile" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">
+                                <asp:Label ID="lbluserName" runat="server" Style="color: yellowgreen;"></asp:Label>
+                                <asp:Image ID="Image1" runat="server" Style="vertical-align: bottom; float: right;" BorderStyle="Groove" BorderWidth="1" Height="30" Width="28" />
+                            </a>
+                            <ul aria-labelledby="dropdownProfile" class="dropdown-menu border-0 shadow">
+                                <li>
+                                    <a href='<%=ResolveUrl("~/UI/Profile.aspx")%>' class="dropdown-item">Profile</a>
+                                </li>
+                                <li class="dropdown-divider"></li>
+                                <li>
+                                    <asp:LinkButton ID="lbLogout" runat="server" OnClick="lbLogout_Click" Style="text-align: center;" class="dropdown-item">Logout</asp:LinkButton>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <%-- End: Top Navigation Menu--%>
+
+            <%-- Start: Body Container--%>
+            <div style="margin-top: 70px;"></div>
+            <section class="content" style="min-height: 800px; margin-left: 5px; margin-right: 5px;">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div style="vertical-align: top;">
+                                <asp:ToolkitScriptManager ID="ScriptManager1" runat="server">
+                                </asp:ToolkitScriptManager>
+                                <asp:ContentPlaceHolder ID="BodyPlaceHolder" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <%-- End: Body Container--%>
+
+            <%-- Start: Footer Section--%>
+            <div style="margin-top: 20px"></div>
+            <footer class="main-footer">
+                <div class="float-right d-none d-sm-block">
+                    Version 3.2.0
+                </div>
+                Copyright &copy; 2022-2023 <a href="https://adminlte.io">LOGIC InfoTech Ltd</a>. All rights reserved.
+            </footer>
+            <%-- Start: Footer Section--%>
+        </div>
+    </form>
+
+    <script src='<%=ResolveUrl("~/assets/js/jquery.min.js")%>' type="text/javascript"></script>
+    <script src='<%=ResolveUrl("~/assets/js/bootstrap.bundle.min.js")%>' type="text/javascript"></script>
+    <script src='<%=ResolveUrl("~/assets/js/adminlte.min.js")%>' type="text/javascript"></script>
+</body>
+</html>
+
