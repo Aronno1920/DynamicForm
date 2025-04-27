@@ -112,6 +112,7 @@
     <Content Include="assets\css\dashboard.css" />
     <Content Include="assets\img\calender.png" />
     <Content Include="assets\img\properties.png" />
+    <Content Include="bin\HtmlAgilityPack.dll" />
     <Content Include="DocumentsApprove\approve.png" />
     <Content Include="DocumentsDraft\draft.png" />
     <Content Include="Global.asax" />
@@ -143,7 +144,6 @@
     <Content Include="assets\img\Delete.png" />
     <Content Include="assets\img\download.png" />
     <Content Include="bin\AjaxControlToolkit.dll" />
-    <Content Include="bin\itextsharp.dll" />
     <Content Include="Images\draft.png" />
     <Content Include="Images\road-barrier.png" />
     <Content Include="UI\ApproveList.aspx" />
